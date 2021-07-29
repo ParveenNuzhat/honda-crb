@@ -3,6 +3,11 @@ body{
      font-family: 'Poppins', sans-serif;
 }
 
+h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
 /* Header */
 
 .header-container{
@@ -14,14 +19,10 @@ body{
     font-weight: 300;
 }
 
-.header-container h1{
-    font-size: 48px;
-    font-weight: 600;
-}
-
 .header-container p{
     font-weight: 300;
     font-size: 16px;
+    color:  #E0E0E0;
 }
 
 .header-button{
@@ -32,25 +33,34 @@ body{
     padding: 10px;
     background-color: #E76F51;
     color: #FFFFFF;
-    
 }
 
 .header-img img{
-    height: 447px;
-    
+    height: 447px;   
 }
 
 /* Featured Bikes */
 
-.card .img{
-    width: 149px;
-    height: 149px;
+.feature-text h6{
+    font-weight: 600;
+    font-size: 14px;
+    color: #E76F51;
 }
 
 .featured-bike {
     filter: grayscale(100%);
   }
 
+/* Client's Feedback */
+
+.card .img{
+    width: 149px;
+    height: 149px;
+}
+
+.filled{
+    color: #E77C40;
+}
 
 
 /* FAQ Section */
@@ -77,7 +87,7 @@ body{
 /* Carousel */
 
 .carousel-container{
-    width: 50%;
+    width: 60%;
     margin: auto;
     
 }
@@ -88,4 +98,12 @@ body{
     border-radius: 8px;
     padding: 9px 25px;
     border: none;
+}
+
+/* Mobile Devices */
+
+@media all and (max-width: 767px){
+    h1{
+        font-size: 30px;
+    }
 }
