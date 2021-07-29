@@ -104,6 +104,10 @@ h1{
 
 @media all and (max-width: 767px){
     h1{
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    .accordion-section{
+        padding-top: 10px;
     }
 }
