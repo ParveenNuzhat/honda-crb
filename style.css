@@ -1,0 +1,54 @@
+.header-container{
+    background-color: #264653;
+    /* height: 698px; */
+}
+
+.header-button{
+    width: 168px;
+    height: 44px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #E76F51;
+    color: #FFFFFF;
+    
+}
+
+.header-img img{
+    height: 447px;
+    
+}
+
+/* Featured Bikes */
+
+.card .img{
+    width: 149px;
+    height: 149px;
+}
+
+.featured-bike {
+    filter: grayscale(100%);
+  }
+
+
+
+/* FAQ Section */
+
+.faq-img{
+    height: 423.5px;
+}
+
+.accordion-border{
+    padding: 20px 24px;
+}
+
+.faq-text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #383838;
+}
+
+.faq-body{
+    font-size: 16px;
+    color: #7E848C;
+}
